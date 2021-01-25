@@ -1,0 +1,58 @@
+{
+	"id": "d73685fd-b88f-4494-b14a-59bfa61b1373",
+	"name": "myself",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"157291e6-6592-479d-a276-de4d3c935a80",
+		"a0a955ac-b105-4ee6-9d49-a740f5fd4276"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "157291e6-6592-479d-a276-de4d3c935a80",
+			"name": "user",
+			"url": "http://127.0.0.1:18080/user",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n   \"first\":\"string\",\n   \"last\": \"string\",\n   \"email\":\"string\",\n   \"password\":\"string\"\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "a0a955ac-b105-4ee6-9d49-a740f5fd4276",
+			"name": "heartbeat",
+			"url": "http://127.0.0.1:18080/heartbeat",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
